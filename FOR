@@ -1,0 +1,9 @@
+main() //"MAIN" es el punto de entrada de un programa ejecutable//
+{
+    i = 1; //Inicializando una variable con un valor//
+    for (x = i; x menor = 100; x++) //se usa cuando queremos repetir un conjunto de instrucciones un numero finito de veces//
+    {
+        printf (x); //"PRINTF" retorna el numero de caracteres impresos, o un valor negativo si ocurre un error//
+    }
+    printf ("adios")
+}
