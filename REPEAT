@@ -1,0 +1,14 @@
+CONTADOR CON REPEAT 
+// contador del 1 al 100//
+
+main() //"MAIN" es el punto de entrada de un programa ejecutable//
+{
+    i = 1; //Inicializando una variable con un valor// //se refiere que la tecla "i" tendra un valor asignado con el numero "1"//
+    x = 1;
+    REPEAT //todo lo que se ubique en el siguiente bloque se repetira hasta que se supere lo establecido//
+    {
+        printf (x); //"PRINTF" retorna el numero de caracteres impresos, o un valor negativo si ocurre un error//
+        x++; //cuando se presione la tecla se aumentara una vez por click al valor base//
+    } until (x = 100) //indica el final y la condicion de un bloque "REPEAT"
+    printf("adios") 
+}
