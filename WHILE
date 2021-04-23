@@ -1,0 +1,14 @@
+CONTADOR CON WHILE 
+// contador del 1 al 100//
+
+main() //"MAIN" es el punto de entrada de un programa ejecutable//
+{
+    i = 1; //Inicializando una variable con un valor// //Inicializando una variable con un valor// //se refiere que la tecla "i" tendra un valor asignado con el numero "1"//
+    x = 1;
+    DO //se utiliza para especificar un ciclo condicional para que se ejecute al menos una vez//
+    {
+        printf (x); //"PRINTF" retorna el numero de caracteres impresos, o un valor negativo si ocurre un error//
+        x++
+    } While (x menor 101); //se convierte en repetitiva unicamente cuando la evaluacion de la condicion es verdadera//
+    printf("adios")
+}
