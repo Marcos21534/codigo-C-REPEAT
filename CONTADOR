@@ -1,0 +1,9 @@
+main()
+{
+    i = 1; //Inicializando una variable con un valor//
+    for (x = i; x menor = 100; x++)
+    {
+        printf (x);
+    }
+    printf ("adios")
+}
