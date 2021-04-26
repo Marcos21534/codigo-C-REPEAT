@@ -1,0 +1,34 @@
+principal()
+{
+    entera opcion; //esta es una variable y se esta declarando//
+    enpantalla ("¿De que producto quiere el precio?");
+    enpantalla ("1. Tortillas");
+    enpantalla ("2. Manzanas");
+    enpantalla ("3. Refresco");
+    enpantalla ("4. Garrafon de agua");
+    enpantalla ("5. Verdura");
+    capturarespuesta ("%i", &opcion);
+
+    caso (opcion)
+    {
+        caso 1:
+            enpantalla ("el kg de tortilla vale $21");
+            rompe;
+        caso 2:
+            enpantalla ("el kg de manzana vale $50");
+            rompe;
+        caso 3:
+            enpantalla ("el refresco vale $25");
+            rompe;
+        caso 4:
+            enpantalla ("el garrafon vale $40");
+            rompe;
+        caso 5:
+            enpantalla ("el kg de verdura vale $30");
+            rompe;
+        otrocaso:
+            enpantalla ("error, opcion invalida");
+            rompe;
+
+    }
+}
