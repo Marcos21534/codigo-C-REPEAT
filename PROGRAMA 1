@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    /* Marcos Garcia 
+    Equipo los ocho tristes burros
+    23 abr 21
+    */
+
+   printf("hola mundo");
+   return 0;
+}
