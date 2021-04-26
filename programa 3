@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main ()
+{
+     /* Marcos Garcia 
+    Equipo los ocho tristes burros
+    23 abr 21
+    Programa 3 Pide dos valores reales, calcula promedio y muestra resultado 
+    */
+    float primer, segundo, tercero;
+    printf ("\n\n Programa 3");
+    printf ("\n\n saca el promedio de valores reales");
+    printf ("\n\n dame el primer valor");
+    scanf ("%f",&primer); //Permite capturar un valor real y lo guarda en variable primer 
+    printf ("\n\n dame el primer valor");
+    scanf ("%f",&segundo); // permite capturar un valor real y lo guarda en variable primer 
+    tercero = (primer + segundo)/2;
+    printf ("\n el promedio es %f",tercero);
+    return 0;
+}
