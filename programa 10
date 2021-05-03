@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main  ()
+{
+    /* Marcos Garcia
+    Equipo Los ocho tristes burros
+    3 mayo 2021
+    Programa 10. Pide 3 valores reales, calcula diferencia */
+    
+   float Primer, segundo, tercero;
+   printf ("\n\n Programa 10");
+   printf ("\n\n Dame el primer valor real");
+   scanf ("%f", &Primer);
+   printf ("\n\n Dame el segundo Valor");
+   scanf ("%f", &segundo);
+   printf ("Dame el tercer valor real");
+   scanf ("%f", &tercero);
+   Diferencia = Primer, segundo, tercero - cuarto, quinto, sexto;
+   printf ("\n el resultado es &f", Diferencia);
+   return 0;
+
+}
