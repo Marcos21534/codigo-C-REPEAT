@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main  ()
+{
+    /* Marcos Garcia
+    Equipo los ocho tistes burros 
+    3 Mayo 2021
+    Programa 9 Pide 1 numero real & un numero entero & calcula el total */
+
+   float precio, total;
+   printf ("\n\n Dame el primer valor real");
+   scanf ("%f", &precio);
+   printf ("\n\n Dame el segundo valor entero");
+   scanf ("%f", &total);
+   Total = precio + precio;
+   printf ("\n El precio total es %f", Total);
+   return 0;
+
+}
